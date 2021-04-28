@@ -176,5 +176,13 @@ public class BaseClass {
 		WebElement findElement = driver.findElement(By.id(data));
 		return findElement;
 	}
+	public WebElement findElementByName(String data) {
+		WebElement findElement = driver.findElement(By.id(data));
+		return findElement;
+	}
+	public WebElement findElementByClassName(String data) {
+		WebElement findElement = driver.findElement(By.id(data));
+		return findElement;
+	}
 	
 }
